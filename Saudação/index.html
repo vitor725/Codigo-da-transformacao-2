@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>Bem vindo!</h1>
-    <label for="nome">Qual é o seu nome</label>
+    <label for="nome">Qual é o seu nome?</label>
     <input type="text" id="nome" />
     <button onclick="saudar()">enviar</button>
 
@@ -15,7 +15,7 @@
     <script>
         function saudar() {
             var nome = document.getElementById("nome").value;
-            var mensagem = "Olá " + nome + "! Seja bem vindo ";
+            var mensagem = "Olá " + nome + "! Seja bem vindo ! ";
             document.getElementById("mensagem").textContent = mensagem;
         }
     </script>
